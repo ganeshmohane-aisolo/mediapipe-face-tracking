@@ -1,0 +1,25 @@
+# Ignore virtual environments
+venv/
+venv310/
+.venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore model weights (optional)
+models/*.jit
+
+# Ignore inputs and outputs
+inputs/
+outputs/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore large video files
+*.mp4
+*.mov
+*.avi
